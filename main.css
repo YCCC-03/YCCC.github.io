@@ -1,5 +1,5 @@
 body{
-	font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo{
@@ -12,6 +12,8 @@ body{
 }
 
 .menu a{
+  text-decoration: none;
+  color: #000000;
   font-size:20px;
   
   padding-left:30px;
@@ -29,7 +31,7 @@ body{
   padding-bottom:10px;
   
   border-shadow:0 2px; 
-	padding-bottom:6px;
+  padding-bottom:6px;
 }
 
 .test a{
@@ -48,4 +50,40 @@ body{
   margin-right: auto;
   background: #81C7D4;
 }
+.homepic{
+  display:flex;
+  justify-content: center;
+}
 
+.about{
+  width:50%;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: auto;
+}
+.about img{
+  display: block;
+  float:left;
+  border-radius: 50%;
+}
+.about-text{
+  float: right;
+  font-size: 20px;
+  width: 400px;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+.photo{
+  background:#81C7D4;
+  margin-top: 100px;
+}
+
+.photo td{
+  font-size:20px;
+  justify-content: center;
+  padding-left:20px;
+  text-align:left;
+}
+.photo tr{
+  justify-content: center;
+}
