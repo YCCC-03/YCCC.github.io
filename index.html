@@ -5,6 +5,11 @@
 		<meta charset="utf-8">
 		<title>YCCC.PIC</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
+    <script>
+      $(document).ready(function(){
+          $("#welcome").fadeIn();
+      })
+    </script>
 	</head>
 
 	<body>
@@ -15,17 +20,12 @@
       <a href="about.html">ABOUT ME</a>
     </div>
     <div>
-    	<h1 style="text-align: center; font-size: 50px;">Welcome!</h1>
+    	<h1 id="welcome" style="text-align: center; font-size: 50px;">Welcome!</h1>
     </div>
     <div class="home-gallery">
     	<p class="homepic">
     		<img src="https://i.imgur.com/d5Z1uWA.jpg" alt="home pic" width="600" height="400">
     	</p>
     </div>
-    <script>
-      
-      $("h1").fadeIn();
-      
-    </script>
 	</body>
 </html>
